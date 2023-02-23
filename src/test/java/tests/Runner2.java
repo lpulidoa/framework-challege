@@ -23,7 +23,7 @@ public class Runner2 {
         authentication.sendRequest();
 
         Assert.assertEquals(authentication.getStatusCode(),"200", "The request failed");
-        Assert.assertEquals(authentication.getPayloadJsonFirstLine(),"\"success\": true", "The request failed");
+        Assert.assertEquals(authentication.getPayloadJsonFirstLine(),"\"success\":true", "The request failed");
     }
     @Test
     public void GET_successful_token_request(){
@@ -82,9 +82,5 @@ public class Runner2 {
         Assert.assertEquals(movie.getPayloadJsonFirstLine(),"\"id\": "+movie.getMovieId(), "The wrong details were received");
         Assert.assertEquals(movie.searchPayloadJson(),"\"titles\":[","The alternative titles were nor received");
     }
-
-    // tener un JSON con el URL, con los paths. Buscar parsing tool jackson(en lo posible) gson(más sencillo, menos poderoso)
-    // hacer la implementación de un reporte --> buscar cómo incluir un allure report
-    // objetivo de un archivo .properties
 
 }

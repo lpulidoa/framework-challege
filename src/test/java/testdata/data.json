@@ -1,0 +1,16 @@
+{
+  "URL": "\nhttps://api.themoviedb.org/3",
+  "paths": [
+    {
+      "create_guest_session": "/authentication/guest_session/new",
+      "create_request_token": "/authentication/token/new"
+    },
+    {
+      "get_details": "/collection/{collection_id}",
+      "get_images": "/collection/{collection_id}/images"
+    },
+    {
+      "alternative_titles": "/movie/{movie_id}/alternative_titles"
+    }
+  ]
+}
