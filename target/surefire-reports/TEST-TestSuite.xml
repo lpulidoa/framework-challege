@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.251" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.921" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\MARIANA\AppData\Local\Temp\surefire9701628923431025369\surefirebooter-20230223201311444_3.jar C:\Users\MARIANA\AppData\Local\Temp\surefire9701628923431025369 2023-02-23T20-13-10_866-jvmRun1 surefire-20230223201311444_1tmp surefire_0-20230223201311444_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\MARIANA\AppData\Local\Temp\surefire12668573154846043633\surefirebooter-20230223210725118_3.jar C:\Users\MARIANA\AppData\Local\Temp\surefire12668573154846043633 2023-02-23T21-07-24_089-jvmRun1 surefire-20230223210725118_1tmp surefire_0-20230223210725118_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\MARIANA\Desktop\Pasantía\Challenges\framework-challenge\target\test-classes;C:\Users\MARIANA\Desktop\Pasantía\Challenges\framework-challenge\target\classes;C:\Users\MARIANA\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\MARIANA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\MARIANA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MARIANA\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\MARIANA\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\MARIANA\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\MARIANA\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\MARIANA\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\MARIANA\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\MARIANA\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\MARIANA\AppData\Local\Temp\surefire9701628923431025369\surefirebooter-20230223201311444_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MARIANA\AppData\Local\Temp\surefire12668573154846043633\surefirebooter-20230223210725118_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -56,87 +56,87 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="GET_successful_collection_details" classname="tests.Runner2" time="0.2">
+  <testcase name="GET_successful_collection_details" classname="tests.Runner" time="0.376">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-feb 23, 2023 8:13:13 P. M. endpoints.Collection addURL
+feb 23, 2023 9:07:27 P. M. endpoints.Collection addURL
 INFO: https://api.themoviedb.org/3 was added
-feb 23, 2023 8:13:14 P. M. endpoints.Collection getDetails
+feb 23, 2023 9:07:27 P. M. endpoints.Collection getDetails
 INFO: /collection/{collection_id} was added to the URL
-feb 23, 2023 8:13:14 P. M. endpoints.Collection typeCollectionId
+feb 23, 2023 9:07:27 P. M. endpoints.Collection typeCollectionId
 INFO: {collection_id} was replaced by 10
-feb 23, 2023 8:13:14 P. M. endpoints.Collection typeKey
+feb 23, 2023 9:07:27 P. M. endpoints.Collection typeKey
 INFO: ?api_key=<my_key> was added to the url
-feb 23, 2023 8:13:14 P. M. endpoints.Collection sendRequest
+feb 23, 2023 9:07:27 P. M. endpoints.Collection sendRequest
 INFO: The request was sent to TMDB
-feb 23, 2023 8:13:14 P. M. endpoints.Collection getStatusCode
+feb 23, 2023 9:07:27 P. M. endpoints.Collection getStatusCode
 INFO: The answer was received
-feb 23, 2023 8:13:14 P. M. endpoints.Collection getPayloadJsonFirstLine
+feb 23, 2023 9:07:27 P. M. endpoints.Collection getPayloadJsonFirstLine
 INFO: The JSON file was read
 ]]></system-err>
   </testcase>
-  <testcase name="GET_successful_create_guest_session" classname="tests.Runner2" time="0.02">
-    <system-err><![CDATA[feb 23, 2023 8:13:14 P. M. endpoints.Authentication addURL
+  <testcase name="GET_successful_create_guest_session" classname="tests.Runner" time="0.019">
+    <system-err><![CDATA[feb 23, 2023 9:07:27 P. M. endpoints.Authentication addURL
 INFO: https://api.themoviedb.org/3 was added
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication createGuestSession
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication createGuestSession
 INFO: /authentication/guest_session/new was added to the URL
-feb 23, 2023 8:13:14 P. M. tests.Runner2 GET_successful_create_guest_session
+feb 23, 2023 9:07:27 P. M. tests.Runner GET_successful_create_guest_session
 INFO: a05d63ea9094a366bb72d2de95a55581
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication typeKey
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication typeKey
 INFO: ?api_key=<my_key> was added to the url
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication sendRequest
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication sendRequest
 INFO: The request was sent to TMDB
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication getStatusCode
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication getStatusCode
 INFO: The answer was received
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication getPayloadJsonFirstLine
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication getPayloadJsonFirstLine
 INFO: The JSON file was read
 ]]></system-err>
   </testcase>
-  <testcase name="GET_successful_movie_alternative_names" classname="tests.Runner2" time="0.015">
-    <system-err><![CDATA[feb 23, 2023 8:13:14 P. M. endpoints.Movie addURL
+  <testcase name="GET_successful_movie_alternative_names" classname="tests.Runner" time="0.019">
+    <system-err><![CDATA[feb 23, 2023 9:07:27 P. M. endpoints.Movie addURL
 INFO: https://api.themoviedb.org/3 was added
-feb 23, 2023 8:13:14 P. M. endpoints.Movie getAlternativeTitles
+feb 23, 2023 9:07:27 P. M. endpoints.Movie getAlternativeTitles
 INFO: /movie/{movie_id}/alternative_titles was added to the URL
-feb 23, 2023 8:13:14 P. M. endpoints.Movie typeMovieId
+feb 23, 2023 9:07:27 P. M. endpoints.Movie typeMovieId
 INFO: {movie_id} was replaced by 550
-feb 23, 2023 8:13:14 P. M. endpoints.Movie typeKey
+feb 23, 2023 9:07:27 P. M. endpoints.Movie typeKey
 INFO: ?api_key=<my_key> was added to the url
-feb 23, 2023 8:13:14 P. M. endpoints.Movie sendRequest
+feb 23, 2023 9:07:27 P. M. endpoints.Movie sendRequest
 INFO: The request was sent to TMDB
-feb 23, 2023 8:13:14 P. M. endpoints.Movie getStatusCode
+feb 23, 2023 9:07:27 P. M. endpoints.Movie getStatusCode
 INFO: The answer was received
-feb 23, 2023 8:13:14 P. M. endpoints.Movie getPayloadJsonFirstLine
+feb 23, 2023 9:07:27 P. M. endpoints.Movie getPayloadJsonFirstLine
 INFO: The JSON file was read
-feb 23, 2023 8:13:14 P. M. endpoints.Movie searchPayloadJson
+feb 23, 2023 9:07:27 P. M. endpoints.Movie searchPayloadJson
 INFO: The JSON file was searched
 ]]></system-err>
   </testcase>
-  <testcase name="GET_successful_token_request" classname="tests.Runner2" time="0.012">
-    <system-err><![CDATA[feb 23, 2023 8:13:14 P. M. endpoints.Authentication addURL
+  <testcase name="GET_successful_token_request" classname="tests.Runner" time="0.011">
+    <system-err><![CDATA[feb 23, 2023 9:07:27 P. M. endpoints.Authentication addURL
 INFO: https://api.themoviedb.org/3 was added
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication createRequestToken
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication createRequestToken
 INFO: /authentication/token/new was added to the URL
-feb 23, 2023 8:13:14 P. M. tests.Runner2 GET_successful_token_request
+feb 23, 2023 9:07:27 P. M. tests.Runner GET_successful_token_request
 INFO: a05d63ea9094a366bb72d2de95a55581
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication typeKey
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication typeKey
 INFO: ?api_key=<my_key> was added to the url
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication sendRequest
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication sendRequest
 INFO: The request was sent to TMDB
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication getStatusCode
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication getStatusCode
 INFO: The answer was received
-feb 23, 2023 8:13:14 P. M. endpoints.Authentication getPayloadJsonFirstLine
+feb 23, 2023 9:07:27 P. M. endpoints.Authentication getPayloadJsonFirstLine
 INFO: The JSON file was read
 ]]></system-err>
   </testcase>
-  <testcase name="GET_unsuccessful_collection_images" classname="tests.Runner2" time="0.027">
+  <testcase name="GET_unsuccessful_collection_images" classname="tests.Runner" time="0.03">
     <failure message="The request should have failed expected [404] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The request should have failed expected [404] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at tests.Runner2.GET_unsuccessful_collection_images(Runner2.java:71)
+	at tests.Runner.GET_unsuccessful_collection_images(Runner.java:71)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,17 +170,17 @@ INFO: The JSON file was read
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[feb 23, 2023 8:13:14 P. M. endpoints.Collection addURL
+    <system-err><![CDATA[feb 23, 2023 9:07:27 P. M. endpoints.Collection addURL
 INFO: https://api.themoviedb.org/3 was added
-feb 23, 2023 8:13:14 P. M. endpoints.Collection getImages
+feb 23, 2023 9:07:27 P. M. endpoints.Collection getImages
 INFO: /collection/{collection_id}/images was added to the URL
-feb 23, 2023 8:13:14 P. M. endpoints.Collection typeCollectionId
+feb 23, 2023 9:07:27 P. M. endpoints.Collection typeCollectionId
 INFO: {collection_id} was replaced by 0
-feb 23, 2023 8:13:14 P. M. endpoints.Collection typeKey
+feb 23, 2023 9:07:27 P. M. endpoints.Collection typeKey
 INFO: ?api_key=<my_key> was added to the url
-feb 23, 2023 8:13:14 P. M. endpoints.Collection sendRequest
+feb 23, 2023 9:07:27 P. M. endpoints.Collection sendRequest
 INFO: The request was sent to TMDB
-feb 23, 2023 8:13:14 P. M. endpoints.Collection getStatusCode
+feb 23, 2023 9:07:27 P. M. endpoints.Collection getStatusCode
 INFO: The answer was received
 ]]></system-err>
   </testcase>

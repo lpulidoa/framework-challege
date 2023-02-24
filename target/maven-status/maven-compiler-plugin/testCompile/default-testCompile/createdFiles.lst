@@ -1,6 +1,4 @@
+endpoints\Authentication.class
 endpoints\Movie.class
 endpoints\Collection.class
-endpoints\GET.class
-endpoints\Authentication.class
 tests\Runner.class
-tests\Runner2.class

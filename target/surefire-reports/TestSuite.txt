@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.251 s <<< FAILURE! - in TestSuite
-tests.Runner2.GET_unsuccessful_collection_images  Time elapsed: 0.027 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.921 s <<< FAILURE! - in TestSuite
+tests.Runner.GET_unsuccessful_collection_images  Time elapsed: 0.03 s  <<< FAILURE!
 java.lang.AssertionError: The request should have failed expected [404] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at tests.Runner2.GET_unsuccessful_collection_images(Runner2.java:71)
+	at tests.Runner.GET_unsuccessful_collection_images(Runner.java:71)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
