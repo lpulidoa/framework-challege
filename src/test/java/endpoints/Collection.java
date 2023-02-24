@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 public class Collection {
     private int collectionId;
-    private static final Logger log = Logger.getLogger(GET.class.getName());
+    private static final Logger log = Logger.getLogger(Collection.class.getName());
     public Collection(int id){
         this.collectionId = id;
     }

@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 public class Movie {
     private int movieId;
-    private static final Logger log = Logger.getLogger(GET.class.getName());
+    private static final Logger log = Logger.getLogger(Movie.class.getName());
     public Movie(int id){
         this.movieId = id;
     }

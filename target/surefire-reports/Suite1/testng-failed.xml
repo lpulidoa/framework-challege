@@ -6,7 +6,6 @@
       <class name="tests.Runner2">
         <methods>
           <include name="GET_unsuccessful_collection_images"/>
-          <include name="GET_successful_create_guest_session"/>
         </methods>
       </class> <!-- tests.Runner2 -->
     </classes>

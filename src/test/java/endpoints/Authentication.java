@@ -12,7 +12,7 @@ public class Authentication { //Singleton class
         return authentication;
     }
 
-    private static final Logger log = Logger.getLogger(GET.class.getName());
+    private static final Logger log = Logger.getLogger(Authentication.class.getName());
     public void addURL() {
         log.info("https://api.themoviedb.org/3 was added");
     }
